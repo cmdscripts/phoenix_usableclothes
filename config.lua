@@ -6,15 +6,17 @@ Config.SaveOutfits = false -- If the Outfit should be saved or not
 
 Config.RemoveItem = false -- Remove Item after using it
 
+Config.Time = 3000 -- 3 Seconds (Time to get Clothes on)
+
 Config.ProgressBar = function()
     exports['an_progBar']:run((Config.Time/1000),'Taking Clothes on...','#00d5ff') 
 end
+
 Config.Animation = { -- Animation the Player does after using item
     dict = 'clothingshirt',
     anim = 'try_shirt_positive_d'
 }
-
-Config.Time = 3000 -- 3 Seconds (Time to get Clothes on)
+)
 
 Config.Items = { 
     {
