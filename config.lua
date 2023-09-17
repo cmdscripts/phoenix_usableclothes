@@ -16,7 +16,6 @@ Config.Animation = { -- Animation the Player does after using item
     dict = 'clothingshirt',
     anim = 'try_shirt_positive_d'
 }
-)
 
 Config.Items = { 
     {
